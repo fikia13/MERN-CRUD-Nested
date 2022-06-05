@@ -1,0 +1,11 @@
+GET http://localhost:5000/topic
+
+
+###
+POST http://localhost:5000/topic
+Content-Type: application/json
+
+{
+    "courseId" : "628ba71e83a4722730b93860",
+    "name":"Materi 9"
+}

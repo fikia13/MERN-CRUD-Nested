@@ -1,0 +1,25 @@
+GET http://localhost:5000/course
+
+###
+GET http://localhost:5000/course/628ba1874c827644c7ad88ef
+
+###
+POST http://localhost:5000/course
+Content-Type: application/json
+
+{
+    "name":"Basis data cncel",
+    "teacher" : "Bapak Zarkasi"
+}
+
+###
+PATCH  http://localhost:5000/course/628ba1874c827644c7ad88ef
+Content-Type: application/json
+
+{
+    "name":"Basis data eXPERT",
+    "teacher" : "Bapak Zarkasi"
+}
+
+###
+DELETE  http://localhost:5000/course/628ba1874c827644c7ad88ef
